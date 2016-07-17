@@ -19,7 +19,7 @@ class NewVisitorTest(unittest.TestCase):
         self.browser.get('http://localhost:8000')
 
         #They look at the title of the web page and make sure it is the list app
-        self.assertIn('To-Do', self.browser.title)
+        self.assertIn('To-Do Lists', self.browser.title)
         self.fail('Finish the test!')
 
         #They then are invited to enter their first item in a list
