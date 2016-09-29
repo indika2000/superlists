@@ -1,3 +1,9 @@
 #id_new_item {
     margin-top: 2ex;
 }
+
+.text-center{
+    background-image: url('../static/images/hd.jpg');
+    width:1000px;
+    height:300px;
+}
